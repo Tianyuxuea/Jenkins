@@ -56,5 +56,10 @@ environment."
 AWS EC2 instance)."
             }
         }
+                         stage('complete') {
+            steps {
+                echo "complete"
+            }
+        }
     }
 }
