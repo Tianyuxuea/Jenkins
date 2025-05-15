@@ -11,8 +11,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "begin build!!"
-                echo "begin"
-                echo "begin"
                 echo "Build the code using a build automation tool to compile and package your code. You need to specify at least one build automation tool, e.g., Maven."
             }
         }
@@ -50,6 +48,7 @@ pipeline {
         stage('Deploy to Production') {
             steps {
                 echo "Deploy the application to a production server (e.g., AWS EC2 instance)."
+                echo "finish"
             }
         }
     }
