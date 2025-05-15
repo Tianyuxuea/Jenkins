@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "begin build!!"
                 echo "begin"
+                echo "begin"
                 echo "Build the code using a build automation tool to compile and package your code. You need to specify at least one build automation tool, e.g., Maven."
             }
         }
